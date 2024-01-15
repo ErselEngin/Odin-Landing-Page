@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    padding: 8px 16px 32px ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 600px;
+    
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    color: #E5E7EB;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 600px;
+}
+
+.headerContentLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContentLeft button{
+    max-width: 100px;
+}
+
+.headerContentRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 600px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border: #1F2937 2px solid;
+}
+
+.card p{
+    align-self: center;
+    max-width: 100px;
+    margin-top: 5px;
+}
+
+.quoteBox{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #E5E7EB;
+    padding: 50px 0;
+}
+
+.quote{
+    margin: 0 600px;
+}
+
+.quoteAuthor{
+    text-align: right;
+    margin: 0 600px;
+}
+
+.sign-up-banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 500px;
+    background-color: #3882f6;
+}
+
+.bannerText{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 32px;
+}
+
+.bannerText h2, p{
+    margin: 0;
+}
+
+.sign-up-banner button{
+    width: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: #1F2937;
+    color: white;
+    margin-top: 32px;
+}
+
