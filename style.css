@@ -8,7 +8,6 @@ body{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    color: #F9FAF8;
     padding: 8px 16px 32px ;
 }
 
@@ -16,8 +15,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 600px;
-    
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 100px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header ul{
@@ -30,22 +36,50 @@ body{
 .headerContent{
     display: flex;
     justify-content: space-between;
-    margin: 0 600px;
+    align-items: center;
+    gap: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 100px;
 }
 
 .headerContentLeft{
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    max-width: 400px;
+    flex-shrink: 2;
+}
+
+.headerContentLeft h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.headerContentLeft p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .headerContentLeft button{
     max-width: 100px;
+    padding: 4px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 8px;
 }
 
 .headerContentRight{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: slategray;
+    color: #F9FAF8;
+    width: 400px;
+    height: 200px;
+    flex-shrink: 1;
 }
 
 .mainContent{
@@ -55,10 +89,19 @@ body{
     gap: 100px;
 }
 
+.topContent{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.topContent h2{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
 .cards{
     display: flex;
     justify-content: space-between;
-    margin: 0 600px;
 }
 
 .card{
@@ -69,7 +112,8 @@ body{
 .card img{
     width: 150px;
     height: 150px;
-    border: #1F2937 2px solid;
+    border: #3882f6 4px solid;
+    border-radius: 10px;
 }
 
 .card p{
@@ -87,20 +131,28 @@ body{
 }
 
 .quote{
-    margin: 0 600px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .quoteAuthor{
+    font-weight: 700;
     text-align: right;
-    margin: 0 600px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .sign-up-banner{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 500px;
+    margin-left: 25%;
+    margin-right: 25%;
     background-color: #3882f6;
+    min-width: 600px;
 }
 
 .bannerText{
@@ -116,6 +168,11 @@ body{
 
 .sign-up-banner button{
     width: 100px;
+    background-color: transparent;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    padding: 4px;
 }
 
 .footer{
